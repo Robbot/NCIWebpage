@@ -1,11 +1,32 @@
 @charset "utf-8";
-body {
-    background: url(../images/ibm_brewery.jpg) no-repeat center center fixed; 
-    background-size: cover;
+
+/*
+
+Colourscheme:
+
+AQUA # 6BBAA7
+Sunshine # FBA100
+LAVANDER # 6C638B
+DUSTY ROSE # B6A19E
+
+*/
+
+.mainbody
+
+{
+	
+	background: url(../images/ibm_brewery.jpg) no-repeat center center fixed; 
+	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+.joe
+{
+	background-color: #FBA100;
+}
+
 footer {
 	font-size: small;
 	text-align: right;
@@ -103,6 +124,7 @@ nav {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 10%;
+	/*border-right: 1px solid #ccc;*/
 }
 .navlist {
 	width: 100%;
@@ -118,6 +140,7 @@ nav {
 	overflow: hidden;
 	background-image: -webkit-linear-gradient(270deg,rgba(26,112,100,1.00) 27.98%,rgba(26,112,100,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(26,112,100,1.00) 27.98%,rgba(26,112,100,1.00) 100%);
+	
 }
 .navlistitem {
 	float: left;
@@ -132,6 +155,7 @@ nav {
 	padding-right: 20px;
 	padding-bottom: 20px;
 	color: #000000;
+	/*-right: 1px solid #ccc;*/
 }
 .navlistitem a:hover {
 	color: #FBA100;
@@ -145,3 +169,6 @@ nav {
 
 .title {
 }
+
+
+	
