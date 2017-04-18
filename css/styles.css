@@ -41,6 +41,10 @@ footer {
 }
 .title {
 	background-color: #1A7064;
+	/* [disabled]height: 100px; */
+	margin-top: 0px;
+	padding-bottom: 50px;
+	padding-top: 30px;
 }
 
 .asideFeed {
@@ -167,7 +171,23 @@ nav {
 	min-height: 200px;
 	float: left;
 
+
+
+
+
+
 .title {
+; 	background-color: #1A7064;
+	background-color: #1A7064;
+	background-color: #1A7064;
+	background-color: #1A7064;
+	background-color: #1A7064;
+	background-color: #1A7064;
+	background-color: #000000;
+	background-color: 6BBAA7;
+	background-color: #6BBAA7;
+	background-color: #6BBAA7;
+	background-color: #1A7064;
 }
 
 
