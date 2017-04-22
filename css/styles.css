@@ -76,7 +76,7 @@ nav {
 	margin-top: 0px;
 	margin-right: 20%;
 	margin-bottom: 0px;
-	margin-left: 20%;
+	margin-left: 11%;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -177,5 +177,201 @@ body section {
 	padding-left: 25%;
 	padding-right: 25%;
 }
-p {
+
+
+/*CSS INTRODUCED BY JOE */
+
+/*Colourscheme: */
+
+/*		background-color: #6BBAA7; 	/*AQUA*/
+/*		background-color: #FBA100;  /*SUNSHINE*/
+/*		background-color: #6C638B;  /*LAVANDER*/
+/*		background-color: #B6A19E;  /*DUSTY ROSE*/
+
+.joefullpage
+{	
+	top: 0;
+	background-size: cover;
+	background-color: #B6A19E;  /*DUSTY ROSE*/
+	
+}
+
+.joetop
+{
+	top: 0;
+	left: 0;
+	position: fixed;
+	float: left;
+	margin-top: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #6C638B;  /*LAVANDER*/
+	color:#FBA100;/*SUNSHINE*/
+	
+}
+
+h1
+{
+	
+	text-align:Center;
+	
+}
+
+.joenavbar
+{
+	
+	width: 100%;
+	height:50px;
+	top: 100px;
+	left: 0;
+	position: fixed;
+	float: left;
+	background-color: #6BBAA7; 	/*AQUA*/
+	text-align:Center;	
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.joenavbarlist {
+	width: 100%;
+	list-style-type: none;	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	overflow: hidden;
+	
+	
+	
+	
+}
+.joenavbarlistitem {
+	
+	 display: inline-block;
+	 list-style: none;
+
+}
+.joenavbarlistitem a {
+	text-decoration: none;
+	display: block;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	color: #000000; /*BLACK*/
+	/*-right: 1px solid #ccc;*/
+}
+.joenavbarlistitem a:hover {
+	color: #FBA100; /*SUNSHINE*/
+	background-color: #6C638B;  /*LAVANDER*/
+	
+}
+
+
+
+.joeleftside
+{
+	width:10%;
+	left:0;
+	min-height: 100px;
+	margin-right:90%;
+	position: fixed;
+	background-color: #6C638B;  /*LAVANDER*/
+	height: 100%;
+	
+}
+
+.joerightside
+{
+	width:10%;
+	left:0;
+	min-height: 100px;
+	margin-left:90%;
+	position: fixed;
+	background-color: #6C638B;  /*LAVANDER*/
+	height: 100%;
+	
+}
+
+.joetextblock
+{
+	width:80%;
+	left:0;
+	text-align:Center;
+	margin-left:10%;
+	margin-right:10%;
+	background-color: #FBA100;  /*SUNSHINE*/
+	color: #6C638B;  /*LAVANDER*/
+	margin-top:150px;
+	height: 100%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+
+#joeimage1{
+
+	float:left;
+	
+}
+
+
+.joelfimage{
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	width: 20%;
+}
+
+#joetfimage{
+
+	float:top;
+}
+
+
+.joerfimage{
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+	width: 20%;
+}
+
+#joebfimage{
+
+	float:bottom;
+}
+
+
+.sideimage {
+	float:left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.joepara{
+	text-align:left;
+	
+}
+
+.joelist{
+	
+	list-style: none;
+	
+}
+
+.joevideo
+{
+	float:left;
+}
+
+.joeeqimage
+{
+	height : 12%;
+	width : 12%;
 }
