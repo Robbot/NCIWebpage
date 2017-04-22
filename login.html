@@ -5,16 +5,17 @@
 <title>International Brewery Masters</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<div id="top"></div>
+<body class="mainbody">
 <header>
-  <h3 class="title">International Brewing Masters - "Big Blue Brew"</h3>
+<div class="title">
+  <h1>International Brewing Masters - "Big Blue Brew"</h1>
+  </div>
 </header>
 <nav>
  <ul class="navlist">
     <li class="navlistitem"><a href="index.html">HOME</a></li>
     <li class="navlistitem"><a href="eleanor1.html">INDUSTRY</a></li>
-    <li class="navlistitem"><a href="eleanor2.html">VARITETIES</a></li>
+    <li class="navlistitem"><a href="eleanor2.html">VARIETIES</a></li>
     <li class="navlistitem"><a href="joe1.html">BEER RECIPES</a></li>
     <li class="navlistitem"><a href="joe2.html">WINE RECIPES</a></li>
     <li class="navlistitem"><a href="robert1.html">HISTORY OF BEER</a></li>
@@ -22,84 +23,43 @@
     <li class="navlistitem"><a href="login.html">SIGN UP/LOGIN</a></li>
   </ul>
 </nav>
-<div class="login">
-  <div class="form">
-       <ul class="tab-group">
-        <li class="active"><a href="#signup">Sign Up</a></li>
-        <li class="tab"><a href="#login">Log In</a></li>
-      </ul>
-      
-      <div class="tab-content">
-        <div id="signup">   
-          <h1>Sign Up for Free</h1>
-          
-          <form action="/" method="post">
-          
-          <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
-        
-            <div class="field-wrap">
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
-            </div>
-          </div>
 
-          <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <button type="submit" class="button button-block"/>Get Started</button>
-         </form>
-        </div>
-    
-        <div id="login">   
-          <h1>Welcome Back!</h1>
-          
-          <form action="/" method="post">
-          
-            <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
-          
-          <button class="button button-block"/>Log In</button>
-          
-          </form>
-
-        </div>
-        
-      </div><!-- tab-content -->
-      
-</div> <!-- /form -->
-</div>
+        <form class="form-register" method="post" action="#">
+            <div class="form-register-with-email">
+                <div class="form-white-background">
+                    <div class="form-title-row">
+                        <h1>Create an account</h1>
+                    </div>
+                    <div class="form-row">
+                        <label>
+                            <span>Name</span>
+                            <input type="text" name="name">
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email">
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <label>
+                            <span>Password</span>
+                            <input type="password" name="password">
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <label class="form-checkbox">
+                            <input type="checkbox" name="checkbox" checked>
+                            <span>I agree to the terms and conditions</span>
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit">Register</button>
+                    </div>
+                </div>
+            </div>
+        </form>
 <footer>Copyright 2017. Made under influence of brewing products.</footer>
 </body>
 </html>
