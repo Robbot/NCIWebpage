@@ -1,59 +1,79 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>International Brewery Masters</title>
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-</head>
-<body class="mainbody">
+<html lang="en">
+		<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="beer, home brewing, beer recipes, wine recipes, history of beer, nci project  " />
+		<meta name="robots" content="index, follow" />
+		<meta name="description" content="NCI project showing students webdesing skills. This site is for training purposes only." />
+		<title>International Brewery Masters</title>
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script LANGUAGE="JavaScript" style="text-decoration:none;color:green;" type="text/javascript" charset="utf-8">
+	
+			function doOnLoad()
+			{
+				if (!confirm("BEFORE ENTERING, PLEASE CONFIRM YOU ARE 18 OR OVER??")) 
+				{
+					self.location="http://www.google.com/"
+				}		
+			}
+		</script>
+		</head>
+
+		<body class="mainbody" onLoad="doOnLoad()">
 <header>
-<div class="title">
-  <h1>International Brewing Masters - "Big Blue Brew"</h1>
+          <div class="title">
+    <h1>International Brewing Masters - "Big Blue Brew"</h1>
   </div>
-</header>
-<nav>
-  <ul class="navlist">
-    <li class="navlistitem"><a href="index.html">HOME</a></li>
-    <li class="navlistitem"><a href="eleanor1.html">INDUSTRY</a></li>
-    <li class="navlistitem"><a href="eleanor2.html">VARIETIES</a></li>
-    <li class="navlistitem"><a href="joe1.html">BEER RECIPES</a></li>
-    <li class="navlistitem"><a href="joe2.html">WINE RECIPES</a></li>
-    <li class="navlistitem"><a href="robert1.html">HISTORY OF BEER</a></li>
-    <li class="navlistitem"><a href="robert2.html">POLISH BREWERY</a></li>
-    <li class="navlistitem"><a href="login.html">SIGN UP/LOGIN</a></li>
-  </ul>
-</nav>
-<aside class="aside"><img src="images/ibm_brewing_logo.png" alt="logo" width="100%" height="47" class="asideLeft" title="International Brewery Masters logo">
-  <div class="asideRight">
-  <!--<img src="images/beer_100.png" width="300" height="70" alt=""/>-->
-  <!--<img src="images/beer.jpg" width="500" height="100" alt=""/>--> 
-  <img src="images/Beer1.png" width="1000" height="100" alt="Beer1"/>
-  <!--<img src="images/Beer2.png" width="1500" height="100" alt="Beer2"/>
-  <img src="images/Beer3.png" width="1500" height="100" alt="Beer3"/>
-  <img src="images/Beer4.png" width="1500" height="100" alt="Beer4"/>
-  <img src="images/Beer5.png" width="1500" height="100" alt="Beer5"/>
-  <img src="images/Beer6.png" width="1500" height="100" alt="Beer6"/>--> 
-  </div>
-</aside>
+        </header>
+<div class="joenavbar">
+          <nav>
+    <ul class="joenavbarlist">
+              <li class="joenavbarlistitem"><a href="index.html">HOME</a></li>
+              <li class="joenavbarlistitem"><a href="eleanor1.html">INDUSTRY</a></li>
+              <li class="joenavbarlistitem"><a href="eleanor2.html">VARIETIES</a></li>
+              <li class="joenavbarlistitem"><a href="joe1.html">BEER RECIPES</a></li>
+              <li class="joenavbarlistitem"><a href="joe2.html">wine recipes</a></li>
+              <li class="joenavbarlistitem"><a href="robert1.html">HISTORY OF BEER</a></li>
+              <li class="joenavbarlistitem"><a href="robert2.html">POLISH BREWERY</a></li>
+              <li class="joenavbarlistitem"><a href="login.html">SIGN UP/LOGIN</a></li>
+            </ul>
+  </nav>
+        </div>
+<aside class="aside"> <img src="images/ibm_brewing_logo.png" alt="logo" height="47" class="asideLeft" title="International Brewery Masters logo">
+          <div class="asideRight"> <a href="robert1.html"><img src="images/Beer1.png" alt="Beer1" width="1000" height="100" class="slides"/></a> <a href="eleanor1.html"><img src="images/Beer2.png" alt="Beer2" width="1000" height="100" class="slides"/></a> <a href="eleanor2.html"><img src="images/Beer3.png" alt="Beer3" width="1000" height="100" class="slides"/></a> <a href="joe1.html"><img src="images/Beer4.png" alt="Beer4" width="1000" height="100" class="slides"/></a> <a href="joe2.html"><img src="images/Beer5.png" alt="Beer5" width="1000" height="100" class="slides"/></a> <a href="robert2.html"><img src="images/Beer6.png" alt="Beer6" width="1000" height="100" class="slides"/></a> </div>
+          <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script> 
+        </aside>
 <article class="content">
-  <h2>Welcome to our website!!</h2>
-  <p>Beer is the world's oldest and most widely consumed alcoholic drink; it is the third most popular drink overall, after water and tea. The production of beer is called brewing, which involves the fermentation of sugars, mainly derived from cereal grain starches—most commonly from malted barley, although wheat, maize (corn), and rice are widely used. Most beer is flavoured with hops, which add bitterness and act as a natural preservative, though other flavourings such as herbs or fruit may occasionally be included. The fermentation process causes a natural carbonation effect, although this is often removed during processing, and replaced with forced carbonation. 
-<p>Beer is sold in bottles and cans; it may also be available on draught, particularly in pubs and bars. The brewing industry is a global business, consisting of several dominant multinational companies and many thousands of smaller producers ranging from brewpubs to regional breweries. The strength of beer is usually around 4% to 6% alcohol by volume (abv), although it may vary between 0.5% and 20%, with some breweries creating examples of 40% abv and above. Beer forms part of the culture of beer-drinking nations and is associated with social traditions such as beer festivals, as well as a rich pub culture involving activities like pub crawling, and pub games such as bar billiards.
-<p>The process of making beer is known as brewing. A dedicated building for the making of beer is called a brewery, though beer can be made in the home and has been for much of its history. A company that makes beer is called either a brewery or a brewing company. Beer made on a domestic scale for non-commercial reasons is classified as homebrewing regardless of where it is made, though most homebrewed beer is made in the home. Brewing beer is subject to legislation and taxation in developed countries, which from the late 19th century largely restricted brewing to a commercial operation only. However, the UK government relaxed legislation in 1963, followed by Australia in 1972 and the US in 1978, allowing homebrewing to become a popular hobby.
-<p>The purpose of brewing is to convert the starch source into a sugary liquid called wort and to convert the wort into the alcoholic beverage known as beer in a fermentation process effected by yeast.
-</article>
-<section> <img src="images/pintrest.png" alt="" width="32" height="32" class="social"/><img src="images/google.png" alt="" width="32" height="32" class="social"/><img src="images/facebook.png" alt="" width="32" height="32" class="social"/><img src="images/twitter.png" alt="" width="32" height="32" class="social"/></section>
-<aside class="asideFeed">
-<div id="rssincl-box-container-1135122"></div>
-<br/>
-<script type="text/javascript">
-(function() {
-  var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
-  s.src = 'http://output66.rssinclude.com/output?type=asyncjs&id=1135122&hash=8d89fac902bc37a907a2cc92a94cd8eb';
-  document.getElementsByTagName('head')[0].appendChild(s);
-})();
-</script>
-</aside>
+          <h2>Welcome to our website!!</h2>
+          <p>Beer is the world's oldest and most widely consumed alcoholic drink; it is the third most popular drink overall, after water and tea. The production of beer is called brewing, which involves the fermentation of sugars, mainly derived from cereal grain starches—most commonly from malted barley, although wheat, maize (corn), and rice are widely used. Most beer is flavoured with hops, which add bitterness and act as a natural preservative, though other flavourings such as herbs or fruit may occasionally be included. The fermentation process causes a natural carbonation effect, although this is often removed during processing, and replaced with forced carbonation.
+  <p>Beer is sold in bottles and cans; it may also be available on draught, particularly in pubs and bars. The brewing industry is a global business, consisting of several dominant multinational companies and many thousands of smaller producers ranging from brewpubs to regional breweries. The strength of beer is usually around 4% to 6% alcohol by volume (abv), although it may vary between 0.5% and 20%, with some breweries creating examples of 40% abv and above. Beer forms part of the culture of beer-drinking nations and is associated with social traditions such as beer festivals, as well as a rich pub culture involving activities like pub crawling, and pub games such as bar billiards.
+  <p>The process of making beer is known as brewing. A dedicated building for the making of beer is called a brewery, though beer can be made in the home and has been for much of its history. A company that makes beer is called either a brewery or a brewing company. Beer made on a domestic scale for non-commercial reasons is classified as homebrewing regardless of where it is made, though most homebrewed beer is made in the home. Brewing beer is subject to legislation and taxation in developed countries, which from the late 19th century largely restricted brewing to a commercial operation only. However, the UK government relaxed legislation in 1963, followed by Australia in 1972 and the US in 1978, allowing homebrewing to become a popular hobby.
+  <p>The purpose of brewing is to convert the starch source into a sugary liquid called wort and to convert the wort into the alcoholic beverage known as beer in a fermentation process effected by yeast. 
+        </article>
+<section> <a href="https://www.pinterest.com/search/pins/?q=home%20brew&rs=typed&term_meta%5B%5D=brew%7Ctyped"><img src="images/pintrest.png" alt="" width="32" height="32" class="social"/></a> <a href="https://plus.google.com/s/homebrew/top"><img src="images/google.png" alt="" width="32" height="32" class="social"/></a> <a href="https://www.facebook.com/search/top/?q=homebrew"><img src="images/facebook.png" alt="" width="32" height="32" class="social"/></a> <a href="https://twitter.com/search?q=homebrew&src=typd&lang=en"><img src="images/twitter.png" alt="" width="32" height="32" class="social"/></a> </section>
+<aside class="asideFeed"> <script type="text/javascript">
+				(function() {
+				  var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+				  s.src = 'http://output66.rssinclude.com/output?type=asyncjs&id=1135122&hash=8d89fac902bc37a907a2cc92a94cd8eb';
+				  document.getElementsByTagName('head')[0].appendChild(s);
+				})();
+			</script> 
+        </aside>
 <footer>Copyright 2017. Made under influence of brewing products.</footer>
 </body>
 </html>

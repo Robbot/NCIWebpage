@@ -14,7 +14,7 @@
 <file name="ibm_brewing_logo.png" server="178.32.4.215//var/www/html/" local="131372814435305504" remote="131372868460000000" Dst="2" />
 <file name="ibm_brewing_logo.jpg" server="178.32.4.215//var/www/html/" local="131351314850000000" remote="131351314850000000" Dst="2" />
 <file name="beer.jpg" server="178.32.4.215//var/www/html/" local="131372815910939905" remote="131372868460000000" Dst="2" />
-<file name="Beer1.png" server="178.32.4.215//var/www/html/" local="131372866409258244" remote="131372868460000000" Dst="2" />
+<file name="Beer1.png" server="178.32.4.215//var/www/html/" local="131373477731116643" remote="131373753490000000" Dst="2" />
 <file name="beer_100.png" server="178.32.4.215//var/www/html/" local="131372809620540115" remote="131372868460000000" Dst="2" />
 <file name="airlockandbung.jpg" server="178.32.4.215//var/www/html/" local="131372734132172867" remote="131372968080000000" Dst="2" />
 <file name="bottles.jpg" server="178.32.4.215//var/www/html/" local="131372734130712784" remote="131372968080000000" Dst="2" />
@@ -36,4 +36,16 @@
 <file name="trialandhydro.jpg" server="178.32.4.215//var/www/html/" local="131372734088900392" remote="131372968100000000" Dst="2" />
 <file name="varieties.jpg" server="178.32.4.215//var/www/html/" local="131372933948890938" remote="131372968100000000" Dst="2" />
 <file name="wine.jpg" server="178.32.4.215//var/www/html/" local="131372734087060287" remote="131372968100000000" Dst="2" />
+<file name="beer (2).jpg" server="178.32.4.215//var/www/html/" local="131372815920000000" remote="131372815920000000" Dst="2" />
+<file name="brewbucket.jpg" server="178.32.4.215//var/www/html/" local="131373306320000000" remote="131373306320000000" Dst="2" />
+<file name="homebrewbeer.jpg" server="178.32.4.215//var/www/html/" local="131373305340000000" remote="131373305340000000" Dst="2" />
+<file name="ipa.jpg" server="178.32.4.215//var/www/html/" local="131373307320000000" remote="131373307320000000" Dst="2" />
+<file name="180px-PorterZywiec2011.jpg" server="178.32.4.215//var/www/html/" local="131373351881020004" remote="131373353260000000" Dst="2" />
+<file name="history_of_beer.jpg" server="178.32.4.215//var/www/html/" local="131373348697507918" remote="131373353270000000" Dst="2" />
+<file name="Beer2.png" server="178.32.4.215//var/www/html/" local="131373483228861096" remote="131373753490000000" Dst="2" />
+<file name="Beer3.png" server="178.32.4.215//var/www/html/" local="131373487150345393" remote="131373753490000000" Dst="2" />
+<file name="Beer4.png" server="178.32.4.215//var/www/html/" local="131373492458529003" remote="131373753490000000" Dst="2" />
+<file name="Beer5.png" server="178.32.4.215//var/www/html/" local="131373488095969479" remote="131373753490000000" Dst="2" />
+<file name="Beer6.png" server="178.32.4.215//var/www/html/" local="131373489187241896" remote="131373753490000000" Dst="2" />
+<file name="beerspill.gif" server="178.32.4.215//var/www/html/" local="131373754440000000" remote="131373754440000000" Dst="2" />
 </dwsync>
